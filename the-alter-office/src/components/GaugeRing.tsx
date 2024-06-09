@@ -63,7 +63,7 @@ const GaugeRingChartComponent = () => {
                                     show: false
                                 },
                                 title: {
-                                    offsetCenter: ['25%', '120%'],
+                                    offsetCenter: ['20%', '120%'],
                                     fontSize: '10px',
                                     fontWeight: 600,
                                 },
@@ -88,13 +88,13 @@ const GaugeRingChartComponent = () => {
                                     show: false
                                 },
                                 title: {
-                                    offsetCenter: ['95%', '120%'],
+                                    offsetCenter: ['90%', '120%'],
                                     fontSize: '10px',
                                     fontWeight: 600,
                                 },
                                 detail: {
                                     valueAnimation: true,
-                                    offsetCenter: ['70%', '120%'],
+                                    offsetCenter: ['60%', '120%'],
                                     borderWidth: 0,
                                     formatter: '⬤',
                                     color: '#0010F7',
@@ -118,7 +118,7 @@ const GaugeRingChartComponent = () => {
                                 },
                                 detail: {
                                     valueAnimation: true,
-                                    offsetCenter: ['-70%', '120%'],
+                                    offsetCenter: ['-60%', '120%'],
                                     borderWidth: 0,
                                     formatter: '⬤',
                                     color: '#FFC700',
