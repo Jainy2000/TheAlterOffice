@@ -63,17 +63,19 @@ const GaugeRingChartComponent = () => {
                                     show: false
                                 },
                                 title: {
-                                    show: false,
+                                    offsetCenter: ['25%', '120%'],
+                                    fontSize: '10px',
+                                    fontWeight: 600,
                                 },
                                 detail: {
                                     show: true,
                                     borderWidth: 0,
-                                    formatter: 'Total\n150',
+                                    offsetCenter: ['0%', '120%'],
+                                    formatter: '⬤',
                                     valueAnimation: true,
                                     fontSize: '10px',
                                     fontWeight: 600,
                                     color: '#636E72',
-                                    offsetCenter: ['0%', '5%']
                                 },
                                 itemStyle: {
                                     color: '#00F7BF',
@@ -86,10 +88,18 @@ const GaugeRingChartComponent = () => {
                                     show: false
                                 },
                                 title: {
-                                    show: false
+                                    offsetCenter: ['95%', '120%'],
+                                    fontSize: '10px',
+                                    fontWeight: 600,
                                 },
                                 detail: {
-                                    show: false
+                                    valueAnimation: true,
+                                    offsetCenter: ['70%', '120%'],
+                                    borderWidth: 0,
+                                    formatter: '⬤',
+                                    color: '#0010F7',
+                                    fontSize: '10px',
+                                    fontWeight: 600,
                                 },
                                 itemStyle: {
                                     color: '#0010F7',
@@ -102,10 +112,18 @@ const GaugeRingChartComponent = () => {
                                     show: false
                                 },
                                 title: {
-                                    show: false
+                                    offsetCenter: ['-40%', '120%'],
+                                    fontSize: '10px',
+                                    fontWeight: 600,
                                 },
                                 detail: {
-                                    show: false
+                                    valueAnimation: true,
+                                    offsetCenter: ['-70%', '120%'],
+                                    borderWidth: 0,
+                                    formatter: '⬤',
+                                    color: '#FFC700',
+                                    fontSize: '10px',
+                                    fontWeight: 600,
                                 },
                                 itemStyle: {
                                     color: '#FFC700',
@@ -153,8 +171,7 @@ const GaugeRingChartComponent = () => {
         <div className='bg-white p-[24px] h-full w-[50%] rounded-[7px] border border-[#DFE6E9]'>
             {/* Header section with title */}
             <div className='font-medium text-[16px] leading-[24px] text-[#2D3436]'>
-                Donut Chart
-                <span className='font-semibold text-[12px] leading-[12px] text-[#636E72] ml-[10px]'>Expenses</span>
+                Market Place
             </div>
             {/* Chart component */}
             <ReactECharts style={{ width: '100%', height: '275px' }} option={options} />
