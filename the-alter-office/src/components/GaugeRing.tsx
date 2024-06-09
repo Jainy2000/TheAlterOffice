@@ -57,7 +57,7 @@ const GaugeRingChartComponent = () => {
                         data: [
                             {
                                 value: 25,
-                                name: 'Perfect',
+                                name: 'Ebay',
                                 color: '#00F7BF',
                                 pointer: {
                                     show: false
@@ -83,7 +83,7 @@ const GaugeRingChartComponent = () => {
                             },
                             {
                                 value: 50,
-                                name: 'Perfect',
+                                name: 'Amazon',
                                 pointer: {
                                     show: false
                                 },
@@ -107,7 +107,7 @@ const GaugeRingChartComponent = () => {
                             },
                             {
                                 value: 75,
-                                name: 'Perfect',
+                                name: 'Web',
                                 pointer: {
                                     show: false
                                 },
